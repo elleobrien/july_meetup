@@ -50,7 +50,7 @@ feature_df = feature_df.sort_values(by='importance', ascending=False,)
 axis_fs = 14 #fontsize
 title_fs = 18 #fontsize
 sns.set(style="whitegrid")
-dpi = 120
+dpi = 100
 
 ax = sns.barplot(x="importance", y="feature", data=feature_df)
 ax.set_xlabel('Importance',fontsize = axis_fs) 
